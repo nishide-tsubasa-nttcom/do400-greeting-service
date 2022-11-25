@@ -29,7 +29,7 @@ steps {
 
 sh '''
 
-oc project RHT_OCP4_DEV_USER-greetings
+oc project nztcev-greetings
 
 oc start-build greeting-service --follow --wait
 
